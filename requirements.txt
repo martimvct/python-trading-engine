@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Core & Utilities
+pydantic==2.6.*         # Strict data validation and models
+pydantic-settings==2.1.*  # Settings management for Pydantic v2
+PyYAML==6.0.*           # For parsing config.yaml files
+
+# Broker & Data Source SDKs
+alpaca-py==0.43.*       # Official Alpaca Trading & Market Data SDK
+requests==2.31.*        # For hitting Binance public API and Discord webhooks
+
+# Database & Persistence
+psycopg2-binary==2.9.*  # Postgres database driver
+
+# Testing (optional, for local development)
+pytest==7.4.*          # Unit testing framework
+pytz==2024.1.*          # Timezone handling for tests and datetime operations
